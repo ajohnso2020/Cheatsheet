@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Display Properties</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <h1>Interesting CSS Properties</h1>
+    <h2>Display Properties</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Tags/Uses</th>
+                <th>Name</th>
+                <th>Description</th>
+                <th>Adjustable height and width</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    <span class="code">
+                        &lt;div&gt;&lt;ul&gt;&lt;ol&gt;&lt;p&gt;
+                    </span>
+                </td>
+                <td>Block</td>
+                <td>Element takes up the entire horizontal line</td>
+                <td>Can change</td>
+            </tr>
+            <td><span class="code">
+                    &lt;strong&gt;&lt;em&gt;&lt;a&gt;
+                </span></td>
+            <td>Inline</td>
+            <td>Shares a line with other elements</td>
+            <td>Cannot change</td>
+            </tr>
+            <tr>
+                <td><span class="code">
+                        Combo of inline and block
+                    </span></td>
+                <td>Inline-block</td>
+                <td>Shares a line with other elements</td>
+                <td>Can change</td>
+            </tr>
+            <tr>
+                <td><span class="code">
+                        Dropdown menus, responsive web design
+                    </span></td>
+                <td>None</td>
+                <td>Hides elements from website</td>
+                <td>N/A</td>
+            </tr>
+        </tbody>
+    </table>
+    <h2>CSS Selectors</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Type</th>
+                <th>Name</th>
+                <th>Description</th>
+                <th>Example</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><span class="code">
+                        *
+                    </span></td>
+                <td>Universal</td>
+                <td>Selects all elements</td>
+                <td>* {}</td>
+            </tr>
+            <tr>
+                <td><span class="code">
+                        #
+                    </span></td>
+                <td>id</td>
+                <td>Selects all id elements</td>
+                <td>#code {}</td>
+            </tr>
+            <tr>
+                <td><span class="code">
+                        .
+                    </span></td>
+                <td>class</td>
+                <td>Selects all class elements</td>
+                <td>.code {}</td>
+            </tr>
+            <tr>
+                <td><span class="code">
+                        div
+                    </span></td>
+                <td>tag</td>
+                <td>Selects all tag elements</td>
+                <td> div {}</td>
+            </tr>
+            <tr>
+                <td><span class="code">
+                        div > a
+                    </span></td>
+                <td>Direct descendants</td>
+                <td>Selects direct children of div</td>
+                <td> div > {}</td>
+            </tr>
+            <tr>
+                <td><span class="code">
+                        div ~ a
+                    </span></td>
+                <td>Sibling selector</td>
+                <td>Selects siblings of div</td>
+                <td> div ~ a {}</td>
+            </tr>
+            <tr>
+                <td><span class="code">
+                        div:nth-child
+                    </span></td>
+                <td>Nth-child selector</td>
+                <td>Selects Nth child of div</td>
+                <td> div:nth-child() {}</td>
+            </tr>
+            <tr>
+                <td><span class="code">
+                        div:last-child
+                    </span></td>
+                <td>Last-child selector</td>
+                <td>Selects last child of div</td>
+                <td> div:last-child() {}</td>
+            </tr>
+            <tr>
+                <td><span class="code">
+                        div:not(.name)
+                    </span></td>
+                <td>Not name selector</td>
+                <td>Selects all a elements NOT in name class</td>
+                <td> div:not(.name) {}</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>
